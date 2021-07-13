@@ -1,0 +1,593 @@
+/* globalcss starts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+fontfmly{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1600px;
+    padding:0;
+    margin: 0 auto;
+}
+/* globalcss starts ends */
+/* header section starts here */
+.header{
+    height: 1023px;
+    background: url('img/headerbgpng.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.topH{
+    display: flex;
+    justify-content: space-between;
+    padding: 6em 11em 6em 11em;
+}
+.hlogo{
+  
+    max-width: 40px;
+    max-height: 50px;
+  
+}
+.hlogo img{
+    height: 100%;
+    width: 100%;
+}
+.hmenuicon{
+  
+    max-width: 58px;
+    max-height: 62px;
+}
+.hmenuicon img{
+    height: 100%;
+    width: 100%;
+}
+.textaligncon{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15em;
+}
+.h-text{
+    width: 28%;
+    text-align: center;
+    padding-bottom:1em ;
+    border-top: 3px solid whitesmoke;
+}
+.hmtext{
+    margin-top: .3em;
+    margin-bottom: .23em;
+   font-size: 3em;
+   font-weight: 800;
+   letter-spacing: 0.2em;
+   color:whitesmoke
+}
+.hstext{
+    margin-top: 1.2em;
+}
+.hstext p{
+    margin-top: 1.2em;
+    color: white;
+    font-size: 1.2em;
+    word-spacing: .2em;
+}
+/* header section ends here */
+
+/* about us section starts here  */
+.About{
+    max-width: 1170px;
+    margin-top: 12em;
+    display: flex;
+
+}
+.ABimg{
+
+}
+.ABimg img{
+
+}
+
+.ABtext{
+  display: flex;
+  margin-top: 4em;
+  margin-left:8em;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ABtext h3{
+    font-weight: 100;
+}
+.ABtext p{
+    margin-top: 4em;
+    font-weight: 100;
+    font-size: 0.9em;
+    line-height: 2.2em;
+}
+.btn1{
+   margin-top: 7em;
+   height: 44px;
+   width: 202px;
+}
+/* about us section ends here  */
+/* my work section starts here */
+.myWork{
+    background-color: #f6f6f6;
+    height: 668px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.myWorkText{
+display: flex;
+flex-direction:column;
+}
+.myWorkText h3{
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+}
+.myWorkText p{
+    text-align: center;
+    font-weight: 300;
+    font-size:0.8em;
+}
+.myWorks{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.workButton{
+    border: none;
+    margin:1em 1em 1em 1em;
+}
+.hudaimg{
+
+    border: none;
+}
+
+/* my work section ends here */
+/* experience&education starts here */
+
+.experince{
+    height: 790px;
+    background: url("img/expbg.png");
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.exp{
+   background: url("img/expBox.png");
+   opacity: 0.8;
+   height: 550px;
+   width: 550px;
+   display: flex;
+   flex-direction: column;
+   align-items:flex-start;
+   justify-content: space-evenly;
+   padding: 3em;
+}
+.exp h4{
+   color: white;  
+}
+.exp h3{
+   color: white;
+}
+.exp h2{
+   color: white;
+}
+.exp p{
+   color: white;
+}
+.edu{
+    background: url("img/expBox.png");
+    opacity: 0.8;
+    height: 550px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    padding: 3em;
+}
+.edu h4{
+    color: white;  
+ }
+ .edu h3{
+    color: white;
+ }
+ .edu h2{
+    color: white;
+ }
+ .edu p{
+    color: white;
+ }
+
+/* experience&education end here */
+/* work demo starts here */
+.latestWork{
+    height:960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.latestWork h1{
+      font-size: 2em;
+      font-weight: 700;
+}
+.latestWork p{
+    font-weight: 200;
+}
+.extralg{
+
+}
+.workd1{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.workd2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* .excont{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* work demo emds here */
+/* letter section starts here */
+.letter{
+    background:#64cbc0;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10em;
+    
+}
+.letterbox{
+    max-width: 500px;
+    max-height: 430px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.letterbox h1{
+    margin-bottom: 3em;
+}
+.letterbox p{
+    margin-bottom: 3em;
+}
+.letterbox img{
+    margin-bottom: 2em;
+}
+/* letter section ends here */
+/* contact form starts here */
+.contactForm {
+    height: 980px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url("img/expbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.leavemsg{
+    background: url("img/expBox.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    width: 570px;
+    height: 730px;
+    padding: 1.5em;
+}
+.leavemsg h2{
+    color: whitesmoke;
+   
+}
+.inpuutbar {
+    width: 80%;
+    height: 41px;
+    margin: 1em;
+    background: none;
+    border: 1px solid whitesmoke;
+    padding-left: 1.6em;
+    color: whitesmoke;
+}
+.textjai{
+    margin: 1em;
+    background:none;
+    border: none;
+    border: 1px solid whitesmoke;
+    padding-left:1.6em ;
+    color: whitesmoke;
+}
+.fctl{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.fctl .btn1{
+    margin-top:3em;
+}
+.reunt{
+    height: 730px;
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+}
+.add{
+    height: 230px;
+    width:570px;
+    background: url("img/expBox.png");
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2em;
+    justify-content: space-evenly;
+    color: whitesmoke;
+}
+.phone{
+    height: 230px;
+    width:570px;
+    background: url("img/expBox.png");
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2em;
+    justify-content: space-evenly;
+    color: whitesmoke;
+}
+.web{
+    height: 230px;
+    width:570px;
+    background: url("img/expBox.png");
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   padding: 2em;
+   justify-content: space-evenly;
+    color: whitesmoke;
+}
+
+
+/* contact form ends here */
+/* Footer section starts here */
+.footer{
+    height: 170px;
+    background:#222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.social{
+    width: 140px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.credits p{
+    color: white;
+}
+/* Footer section ends here */
+/* responcive design starts here */
+@media only screen and (min-width:200px)and (max-width:633px) {
+    .header {
+        height: 494px;
+    }
+    .textaligncon {
+        margin-top: 5em;
+    }
+    .topH {
+        padding: 2em 1em 0em 1em;
+    }
+    .hlogo {
+        max-width: 30px;
+        max-height: 40px;
+    }
+    .hmenuicon {
+        max-width: 48px;
+        max-height: 52px;
+    }
+    .h-text {
+        width: 75%;
+    }
+    .hmtext {
+        font-size: 2em;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        color: black;
+    }
+    .hstext {
+        margin-top: 1.2em;
+        line-height: 1.9em;
+        letter-spacing: 0.1em;
+    }
+    .About {
+            margin-top: 1em;
+    }
+    .About {
+        flex-direction: column;}
+    .ABimg {
+            display: none;
+        }
+        .ABtext {
+            margin-top: 0em;
+            margin-left: 1.8em;
+        }
+        .btn1 {
+            margin-top: 3em;
+            margin-left: 13em;
+            height: 47px;
+            width: 111px;
+        }
+        .myWork {
+            height: 383px;
+        }
+        .workButton {
+            width: 53px;
+            margin: 0em 0em 0em 0em;
+            height: 62px;
+        }
+        .hudaimg {
+            height: 100%;
+            width: 100%;
+        }
+        .experince {
+            height: 794px;
+            overflow: scroll;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            align-content: flex-start;
+        }
+        .latestWork {
+            height: 426px;
+        }
+        .workd2 {
+            display: none;
+        }
+        .letter {
+            padding-left: 1em;
+        }
+        .letterbox h1 {
+            margin-bottom: 1em;
+        }
+        .contactForm {
+            height: 501px;
+            flex-direction: column;}
+        .leavemsg {
+            width: 245px;
+            height: 445px;
+            padding: 1.2em;
+        }
+        .textjai {
+            display: none;
+        }
+        .add {
+            height: 230px;
+            width: 366px;}
+        .phone {
+                height: 230px;
+                width: 365px;}
+        .reunt {
+                    flex-wrap: wrap;
+                  display: none;
+        }
+
+
+
+}
+@media only screen and (min-width:664px)and (max-width:1000px) {
+    
+    .topH {
+        padding: 2em 2em 0em;
+    }
+    .header {
+        height: 670px;
+    }
+    .textaligncon {
+        margin-top: 12em;
+    }
+    .h-text {
+        width: 85%;
+        border-top: 3px solid whitesmoke;
+    }
+    .hmtext {
+        color: black;
+    }
+    .hstext p {
+        margin-top: 1.2em;
+        color: black;}
+    .About {
+            max-width: 1170px;
+            margin-top: 12em;
+            display: flex;
+            flex-direction: column;
+    }
+    .ABimg {
+        display: none;
+    }
+    .ABtext {
+        display: flex;
+        margin-left: 13px;
+        margin-top: -8em;
+    }
+    .btn1 {
+        margin-left: 29em;
+        margin-top: 4em;
+        height: 44px;
+        width: 97px;
+        border-radius: 5px;
+    }
+    .myWork {
+        background-color: #f6f6f6;
+        height: 1333px;
+    }
+    .myWorkText h3 {
+        font-size: 3em;
+    }
+     .myWorkText p {
+            margin-top: 1.2em;
+            font-weight: 300;
+            font-size: 1.2em;
+        }    
+        .myWorks {
+            width: 62%;
+            display: flex;
+            flex-direction: column;
+        }  
+        .workButton {
+            max-width: 286px;
+            max-height: 225px;
+        }
+        .hudaimg {
+            height: 100%;
+            width: 100%;
+        }
+        .experince {
+            height: 1833px;
+            flex-direction: column;
+        }
+        .letter {
+            padding-left: 1em;
+        }
+        .contactForm {
+            height: 1500px;
+            flex-direction: column;
+        }
+        .leavemsg {
+            padding: 3.5em;
+        }
+        .reunt {
+            height: 730px;
+            width: 503px;}
+            .add {
+                padding: 1em 7em 0em 2em;
+            }
+
+}
